@@ -1,0 +1,46 @@
+﻿/*车牌号选择样式*/
+
+.carpro{
+    list-style: none;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.carpro li {
+    width: 35px;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #0894ec;
+    background-color: #0894ec;
+    color: white;
+    float: left;
+    margin-right: 5px;
+    display: inline;
+    list-style: none;
+}
+
+.clear_both{
+    clear:both;
+}
+
+.carproselect li{
+    border: 1px solid #999;
+    background-color: #999;
+    height: 24px;
+}
+
+.carproselect .carprodelete{
+    width : 87px;
+    border: 1px solid red;
+    background-color: red;
+}
+
+.layui-layer-dialog .layui-layer-content{
+   overflow-y: hidden;
+   height: 240px !important;
+}
+.layui-layer-dialog{
+    height: 380px !important;
+}
